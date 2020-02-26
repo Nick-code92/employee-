@@ -4,15 +4,15 @@ import Row from "./row";
 function Table(props) {
     console.log(props)
     return (
-        <table>
+        <table class="table table-bordered">
             <thead>
                 <tr>
-                    <th>Name</th>
-                    <th>Gender</th>
-                    <th>Email</th>
-                    <th>Age</th>
-                    <th>City</th>
-                    <th>Id</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Gender</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Age</th>
+                    <th scope="col">City</th>
+                    <th scope="col">Id</th>
                 </tr>
             </thead>
 
