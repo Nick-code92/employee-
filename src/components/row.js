@@ -2,7 +2,7 @@ import React from "react";
 
 function Row (props) {
     return (
-      <tr>
+      <tr >
           <td>{props.name}</td>
           <td>{props.gender}</td>
           <td>{props.email}</td>

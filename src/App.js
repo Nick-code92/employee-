@@ -1,12 +1,14 @@
 import React, { Component } from 'react';
 import API from "./utils/api";
 import Table from "./components/table";
+import {Header} from "./components/Header";
+
 
 
  class App extends Component{
    state = {
     employees:[],
-    numEmp: 20
+    numEmp: 30
    }
 
    componentDidMount = () => {
@@ -22,6 +24,7 @@ import Table from "./components/table";
    render (){
   return (
     <div className="App">
+      <Header/>
       <Table employees = {this.state.employees}/>
       
     </div>
